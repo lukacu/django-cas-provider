@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}
+Unauthorized
+{% endblock %}
+
+{% block content %}
+    <h3>Unauthorized</h3>
+
+    <p>You are not allowed to authenticate with service <tt>{{ service }}</tt>. Contact the administrator about your permissions.</p>
+{% endblock %}
